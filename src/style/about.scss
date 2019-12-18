@@ -1,0 +1,50 @@
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.boothwraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  // background-color: #25bcd6;
+  width: 90vw;
+}
+
+.BP {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+
+.features {
+  float: right;
+  width: 33.3%;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.aboutbooth2 {
+  display: grid;
+  align-items: center;
+  width: 65vw;
+  padding-bottom: 20px;
+  font-size: 2.2vw;
+  color: #274197;
+}
+
+.boothinfo {
+  display: grid;
+  align-items: center;
+  width: 65vw;
+  font-size: 2vw;
+  color: #274197;
+}
