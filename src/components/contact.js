@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import CP from "../PICS/22405648_508752749486144_5875770358194510029_n.jpg";
+import CP from "../PICS/22289624_506843233010429_7770978378955726630_o.jpg";
 
 export default class Contact extends Component {
   render() {

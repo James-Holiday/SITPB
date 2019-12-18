@@ -1,8 +1,22 @@
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
 .contactInfo {
   display: grid;
   justify-items: center;
   color: #274197;
 }
 
-.ContactPagePic {
-}
+// .ContactPagePic {
+//   max-width: auto;
+//   height: auto;
+// }
