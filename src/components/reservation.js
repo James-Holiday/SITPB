@@ -6,36 +6,37 @@ export default class Reservation extends Component {
       <div className="reserve">
         <form>
           <div>
-            <label>
-              First Name:
-              <input type="text" name="name" />
+            <label className="font">
+              Name:
+              <input className="input" type="text" name="name" />
             </label>
           </div>
-          <div>
+          {/* <div>
             <label>
               Last Name:
               <input type="text" name="last name" />
             </label>
-          </div>
+          </div> */}
           <div>
-            <label>
+            <label className="font">
               Email:
-              <input type="text" name="Email" />
+              <input className="input" type="text" name="Email" />
             </label>
           </div>
           <div>
-            <label>
-              Date and Time Requested:
-              <input type="text" name="date and time" />
-            </label>
-          </div>
-          <div>
-            <label>
+            <label className="font">
               Phone Number:
-              <input type="text" name="phone" />
+              <input className="input" type="text" name="phone" />
             </label>
           </div>
-          <select>
+          <div>
+            <label className="font">
+              Date and Time Requested:
+              <input className="input" type="text" name="date and time" />
+            </label>
+          </div>
+
+          <select className="selector">
             <option selected value="wedding">
               Wedding
             </option>
@@ -43,7 +44,7 @@ export default class Reservation extends Component {
             <option value="Birthday Party">Birthday Party</option>
             <option value="other">Other</option>
           </select>
-          <input type="submit" value="Submit" />
+          <input className="Submitor" type="submit" value="Submit" />
         </form>
         <div className="Resfooter">
           <h5 className="h5">~Somewhere in Time Photo Booth Inc.~</h5>

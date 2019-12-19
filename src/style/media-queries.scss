@@ -1,0 +1,61 @@
+@media (max-width: 615px) {
+  .logo {
+    // width: 40vw;
+  }
+  .nav-wrapper {
+    flex-direction: Column;
+    align-items: center;
+    height: 50vw;
+  }
+  .homewraper {
+    width: 100%;
+  }
+  .h5 {
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  .boothwraper {
+    width: 100vw;
+  }
+  .aboutbooth2 {
+    font-size: 16px;
+  }
+  .aboutbooth {
+    font-size: 16px;
+  }
+  .boothinfo {
+    font-size: 16px;
+  }
+
+  .pbp {
+    display: grid;
+    justify-content: center;
+  }
+  .contactInfo {
+    // width: 50%;
+  }
+  .footer {
+    width: 33vw;
+  }
+  .reserve {
+    display: grid;
+    justify-content: center;
+  }
+  .font {
+    font-size: 22px;
+  }
+  .input {
+    height: 22px;
+    width: 33.3vw;
+  }
+  .selector {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .Submitor {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

@@ -3,6 +3,7 @@
 @import "./contact.scss";
 @import "./reservation.scss";
 @import "./PBP.scss";
+@import "./media-queries.scss";
 
 @media screen and (min-width: 601px) {
   div.example {
@@ -77,7 +78,7 @@ body {
   border-color: white;
   padding: 30px;
   font-family: "Shadows Into Light", cursive;
-  width: 77vw;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   // border: 1px solid #1d444b;

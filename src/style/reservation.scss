@@ -1,4 +1,22 @@
 .reserve {
   display: grid;
-  align-items: left;
+  justify-content: center;
+}
+
+.font {
+  font-size: 22px;
+}
+.input {
+  height: 22px;
+  width: 33.3vw;
+}
+.selector {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+}
+.Submitor {
+  width: 70px;
+  height: 50px;
+  font-size: 18px;
 }

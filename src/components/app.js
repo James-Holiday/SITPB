@@ -14,9 +14,9 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <img src={logo} />
+        <img className="logo" src={logo} />
         <Router>
-          <div>
+          <div className="nav-container">
             {/* <hr className="HR" /> */}
             <NavCom />
             {/* <hr className="HR" /> */}
