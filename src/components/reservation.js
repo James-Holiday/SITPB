@@ -11,12 +11,6 @@ export default class Reservation extends Component {
               <input className="input" type="text" name="name" />
             </label>
           </div>
-          {/* <div>
-            <label>
-              Last Name:
-              <input type="text" name="last name" />
-            </label>
-          </div> */}
           <div>
             <label className="font">
               Email:
