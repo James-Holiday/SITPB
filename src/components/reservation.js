@@ -50,7 +50,7 @@ class Reservation extends React.Component {
       event: this.state.event
     };
 
-    fetch("http://127.0.0.1:5000/reservations/create", {
+    fetch("https://sitbk.herokuapp.com/reservations/create", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
