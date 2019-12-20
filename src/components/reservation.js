@@ -11,7 +11,7 @@ class Reservation extends React.Component {
       date: "",
       event: "",
       editMode: false,
-      apiUrl: "http://127.0.0.1:5000/",
+      apiUrl: "https://sitbk.herokuapp.com/",
       apiAction: "post"
     };
 
